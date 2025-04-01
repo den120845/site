@@ -1,0 +1,80 @@
+<html>
+<head>
+  <title>Géographie</title>
+<style>
+  * {box-sizing: border-box;}
+
+  .topnav {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .image-container {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	align-items: center;
+	min-height: 50vh;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .image-container img {
+            transition: transform 0.3s ease-in-out;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+            .topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  
+</style>
+</head>
+<body>
+<!--  -->
+  <div class="topnav">
+    <a href="index.html">Accueil</a>
+    <a class="active" href="geographie.html">Géographie</a>
+    <a href="politique.html">Politique</a>
+    <a href="culture.html">Culture</a>
+  </div>
+  <div class="image-container"> 
+    <h1>Géographie</h1>
+    <img style="border: 2px solid black; border-radius: 15px" src="https://www.actualitix.com/wp-content/uploads/2017/02/carte-russie.jpg"
+	  width="1100"/>
+  </div>
+  <div>
+  <p>
+  <h2 style="text-align:center;">La Russie, le plus grand pays du monde, s'étend sur plus de 17 millions de kilomètres carrés.</br>
+  Les grandes rivières comme la Volga, la Lena et l'Ienisseï sont essentielles pour le transport, et le lac Baïkal, le plus profond du monde.</br>
+  Riche en ressources naturelles, la Russie est un important producteur de pétrole, gaz et minerais<h2/>
+  </p>
+  <button onClick="window.location.reload();"><img src="https://th.bing.com/th/id/OIP.N-vvyYpvyPSz-6cteIM3IAHaHk?rs=1&pid=ImgDetMain" width="50px"></button>
+</body>
+</html>
