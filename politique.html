@@ -7,8 +7,18 @@
 body {
   background: #fafafa url(https://jackrugile.com/images/misc/noise-diagonal.png);
   color: #444;
-  font: 100%/30px "Helvetica Neue", helvetica, arial, sans-serif;
-  text-shadow: 0 1px 0 #fff;
+  font: 100% "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.text {
+  margin: auto;
+  width: 60%;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  padding: 2px;
+  box-shadow: 0 1px 6px #000000; 
+  display: flex;
+  font: 100% "Helvetica Neue", helvetica, arial, sans-serif;
 }
 
 strong {
@@ -90,7 +100,7 @@ tbody:hover tr:hover td {
 	flex-direction: column;
 	align-self: center;
 	align-items: center;
-	min-height: 20%;
+  margin-bottom: 2%;
   }
   
   .topnav {
@@ -138,15 +148,18 @@ tbody:hover tr:hover td {
     <a class="active" href="politique.html">Politique</a>
     <a href="culture.html">Culture</a>
   </div>
+    <h1 style="text-align: center;">Politique</h1>
   <div class="image-container"> 
-    <h1>Politique</h1>
     <img style="border: 2px solid black; border-radius: 15px" src="https://www.cartograf.fr/img/russie/carte_russie_division_administrative.jpg"
 	  width="70%"/>
   </div>
-  <p style="text-align:center; font:size 100%;">La Russie est une république fédérale avec un système politique dominé par le président.</br>
+  <div class="text">
+  <p>La Russie est une république fédérale avec un système politique dominé par le président.</br>
   Ce dernier est élu pour six ans, dirige le pays et nomme le Premier ministre. Le parlement, appelé l'Assemblée fédérale, est bicaméral.</br>
   Le système judiciaire est censé être indépendant, mais il est souvent influencé par le pouvoir exécutif.
   </p>
+  </div>
+  <div class="table">
   <table>
   <tbody>
     <tr>
@@ -179,6 +192,7 @@ tbody:hover tr:hover td {
     </tr>
   </tbody>
 </table>
+</div>
 
 <button onClick="window.location.reload();"><img src="https://th.bing.com/th/id/OIP.N-vvyYpvyPSz-6cteIM3IAHaHk?rs=1&pid=ImgDetMain" width="50px"></button>
 
