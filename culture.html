@@ -8,14 +8,20 @@
   body {
     background-image: url(https://s1.1zoom.me/b5050/16/Russia_Moscow_Kremlin_Temples_Town_square_Clouds_523286_1920x1080.jpg); 
     background-attachment: fixed;
+    background-size: cover;
   }
 
-  .list {
+  .lists {
+    display: flex;
+  }
+
+  .list-1 {
+    flex: 1;
     background-color: white;
-    margin: 20px;
-    width: 504px;
-    border: 2px solid #000000;
     border-radius: 15px;
+    height: fit-content;
+    padding: 10px;
+    margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     text-align: center;
@@ -30,9 +36,11 @@
         <a href="politique.html">Politique</a>
         <a class="active" href="culture.html">Culture</a>
       </div>
-      <main class="list">
-        <div class="Musee">
-         <img style="border-top-right-radius: 15px; border-top-left-radius: 15px;" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/83/ff/2a/es-casi-imposible-tomar.jpg?w=500&h=-1&s=1">
+      <div class="lists">
+      <div class="list-1">
+        <h1>Point touristiques.</h1>
+        <div>
+         <img style="" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/83/ff/2a/es-casi-imposible-tomar.jpg?w=500&h=-1&s=1">
          <p>1.Musée de l'Ermitage. (musée d'art)<br/>
           Le musée d'État de l'Ermitage est un musée situé à Saint-Pétersbourg en Russie.<br/>
           Fondé en 1764, c'est le plus grand musée du monde.</p>
@@ -64,7 +72,54 @@
             comme le reste du réseau ferré russe. Il est alimenté<br/>
             par troisième rail avec une tension de 825 volts continu</p>
         </div>
-      </main>
+      </div>
+      <div class="list-1">
+        <h1>Gastronomie</h1>
+        <div>
+         <img style="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Pelmeni_Russian.jpg/800px-Pelmeni_Russian.jpg" width="500px">
+         <p>1.Les pelmenis sont la version russe des raviolis farcis à la viande.<br/>
+          Quand on parle de pelmenis, on sous-entend les pelmenis de Sibérie et d'Oural.<br/>
+          Les vrais pelmenis ont la particularité d'être épais car traditionnellement ils sont réalisés à la main.</p>
+        </div>
+        <div>
+          <img style="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNsy68M8lnNmzM4iKIiha-fhgKKokzdOVc8Q&s" width="500px">
+          <p>2.Le bortsch désigne à l'origine une soupe à la berce.<br/>
+          La recette du bortsch est des betterave dilué avec de l'eau et porté à ébullition<br/>
+          dans laquelle on rajoute ensuite des tranches de betteraves, de chou, de carottes et d'autres légumes.</p>
+        </div>
+        <div>
+          <img style="" src="https://i.redd.it/8n2kkoi4u8u01.jpg" width="500px">
+          <p>3.Le kompot est une boisson traditionnelle non alcoolisée très populaire en Europe orientale,<br/>
+          dans les Balkans et dans le Caucase. Elle est faite à partir de fruits frais ou de baies,<br/>
+          ou de fruits au sirop, ou encore de mélanges de fruits séchés ou de conserves de fruits.</p>
+        </div>
+      </div>
+      <div class="list-1" style="margin: 20px;">
+        <h1>Personnes célèbres</h1>
+        <div>
+         <img style="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2808-03-2024%29_%28cropped%29.jpg/220px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2808-03-2024%29_%28cropped%29.jpg" width="500px">
+         <p>1.Vladimir Vladimirovitch Poutine Officier du KGB, principal service de renseignement de l'URSS,<br/>
+          il est en poste à Dresde au moment de la chute du mur de Berlin. Il commence sa carrière politique à<br/>
+          la mairie de Saint-Pétersbourg, puis devient l'un des plus proches conseillers du Président Boris Eltsine,<br/>
+          qui fait de lui le directeur du Service fédéral de sécurité en 1998, puis le président du gouvernement de la Russie l'année suivante.</p>
+        </div>
+        <div>
+          <img style="" src="https://www.musicologie.org/Biographies/t/tchaikovski.jpg" width="500px">
+          <p>2.Piotr Ilitch Tchaïkovski Compositeur éclectique, il est l'auteur notamment de onze opéras, six symphonies,<br/>
+          quatre suites pour orchestre, cinq concertos, trois ballets, cent-six mélodies et une centaine de pièces pour piano</p>
+        </div>
+        <div>
+          <img style="" src="https://m.media-amazon.com/images/M/MV5BMTk1OTQxNzI0NV5BMl5BanBnXkFtZTgwODI0NDMzMjE@._V1_.jpg" width="500px">
+          <p>3.Nikolaï Konstantinovitch Tcherkassov En 1919-1922, il est artiste du théâtre Mariinsky,<br/>
+            du Grand théâtre dramatique de Léningrad et d'autres théâtres où il joue de petits rôles.<br/>
+            En 1926, il est diplômé de l'Institut des arts de la scène de Léningrad.
+            En 1926-1929 - il est acteur du Théâtre de la jeunesse de Léningrad, en 1929-1931<br/>
+            artiste des Music-hall de Léningrad et de Moscou, en 1931-1933 - du Théâtre itinérant de Léningrad "Comédie",<br/>
+            en 1933-1965 - du Théâtre Alexandra. Il a quitté le théâtre un an avant sa mort en raison de la décision des dirigeants<br/>
+            de licencier sa femme dans le cadre de la réduction des effectifs.</p>
+        </div>
+      </div>
+    </div>
 
 
 
